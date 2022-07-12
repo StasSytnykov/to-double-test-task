@@ -1,12 +1,17 @@
 import { Logo } from "../Logo/Logo";
-import { Nav } from "./Header.styled";
-
-const navItems = ["Услуги", "Портфолио", "Этапы", "Дизайнеры"];
+import { HeaderMenu } from "./HeaderMenu/HeaderMenu";
+import { HeaderSyle, Nav } from "./Header.styled";
+import { Container } from "../Container/Container.styled";
 
 export const Header = () => {
   return (
-    <Nav>
-      <Logo />
-    </Nav>
+    <HeaderSyle>
+      <Container>
+        <Nav>
+          <Logo />
+          <HeaderMenu />
+        </Nav>
+      </Container>
+    </HeaderSyle>
   );
 };
