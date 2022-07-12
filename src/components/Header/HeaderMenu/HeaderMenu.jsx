@@ -7,7 +7,7 @@ export const HeaderMenu = () => {
     <UlNav>
       {navItems.map((item) => (
         <li key={item}>
-          <a href="#">{item}</a>
+          <a href="">{item}</a>
         </li>
       ))}
     </UlNav>
