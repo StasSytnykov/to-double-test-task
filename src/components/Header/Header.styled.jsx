@@ -5,7 +5,11 @@ export const HeaderSyle = styled.header`
   align-items: center;
 
   background-color: #67aefc;
-  height: 95px;
+  height: 49px;
+
+  @media screen and (min-width: 768px) {
+    height: 95px;
+  }
 `;
 
 export const Nav = styled.nav`
