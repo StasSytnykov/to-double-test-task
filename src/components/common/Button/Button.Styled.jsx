@@ -39,12 +39,35 @@ export const ButtonStyled = styled.button`
   }
 `;
 
-export const DevButton = styled(ButtonStyled)`
+export const DevButton = styled.button`
   display: block;
   width: 335px;
   height: 60px;
   border-radius: 10px;
   border: none;
+  background: #75e169;
+
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.75;
+  text-transform: uppercase;
+  color: #ffffff;
 
   line-height: 1.75;
+
+  @media screen and (min-width: 376px) {
+    border-radius: 5px;
+    width: 270px;
+    line-height: 1;
+
+    &:hover,
+    &:focus {
+      border: 2px solid #67aefc;
+    }
+    &:active {
+      background: #67aefc;
+    }
+  }
 `;
