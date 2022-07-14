@@ -1,3 +1,3 @@
-import { ButtonStyle } from "./Button.Styled";
+import { ButtonStyled } from "./Button.Styled";
 
-export const Button = () => <ButtonStyle type="button">Заказать</ButtonStyle>;
+export const Button = () => <ButtonStyled type="button">Заказать</ButtonStyled>;

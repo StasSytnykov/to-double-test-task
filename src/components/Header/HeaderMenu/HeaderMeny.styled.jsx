@@ -18,8 +18,9 @@ export const UlNavMobile = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  padding-top: 42px;
+  padding: 42px 0 0 0;
 
   @media screen and (min-width: 768px) {
     display: none;
@@ -35,7 +36,7 @@ export const LiNav = styled.li`
 export const HeaderNavLink = styled.span`
   font-weight: 800;
   font-size: 17px;
-  line-height: 1.59px;
+  line-height: 1.59;
   text-transform: uppercase;
   border-bottom: ${(props) => (props.current ? "2px solid #ffffff" : "none")};
   color: #ffffff;
@@ -43,7 +44,7 @@ export const HeaderNavLink = styled.span`
   @media screen and (min-width: 768px) {
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.25px;
+    line-height: 1.25;
     text-transform: capitalize;
     margin-right: 20px;
   }
@@ -51,7 +52,7 @@ export const HeaderNavLink = styled.span`
   @media screen and (min-width: 1200px) {
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.25px;
+    line-height: 1.25;
     text-transform: capitalize;
     margin-right: 30px;
   }
