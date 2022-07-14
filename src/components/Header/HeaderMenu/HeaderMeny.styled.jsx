@@ -3,7 +3,14 @@ import styled from "styled-components";
 export const UlNav = styled.ul`
   display: none;
   @media screen and (min-width: 768px) {
+    position: absolute;
+    right: 130px;
     display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  @media screen and (min-width: 1200px) {
+    right: 200px;
   }
 `;
 
@@ -32,4 +39,20 @@ export const HeaderNavLink = styled.span`
   text-transform: uppercase;
   border-bottom: ${(props) => (props.current ? "2px solid #ffffff" : "none")};
   color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25px;
+    text-transform: capitalize;
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25px;
+    text-transform: capitalize;
+    margin-right: 30px;
+  }
 `;

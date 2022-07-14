@@ -15,5 +15,10 @@ export const HeaderSyle = styled.header`
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+
+  @media screen and (min-width: 768px) {
+    position: relative;
+    height: 95px;
+    // max-width: 1170px;
+  }
 `;

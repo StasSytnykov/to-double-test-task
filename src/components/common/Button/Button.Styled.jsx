@@ -5,9 +5,10 @@ export const ButtonStyle = styled.button`
 
   @media screen and (min-width: 768px) {
     display: block;
+    margin-left: auto;
 
-    width: 170px;
-    height: 37.78px;
+    width: 130px;
+    height: 35px;
     background: #75e169;
     border-radius: 5px;
     border: 2px solid transparent;
@@ -30,5 +31,10 @@ export const ButtonStyle = styled.button`
       background: #ffffff;
       border: 2px solid #ffffff;
     }
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+    height: 37.78px;
   }
 `;
