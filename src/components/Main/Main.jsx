@@ -1,14 +1,14 @@
-import { Developments } from "./Sections/Developments/Developments";
+import { Hero } from "./Sections/Hero/Hero";
 import { MainStyled } from "./Main.styled";
-import { Background } from "./Sections/Developments/Developments.styled";
+import { HeroBackground } from "./Sections/Hero/Hero.styled";
 import { Container } from "../Container/Container.styled";
 
 export const Main = () => (
-  <Background>
+  <HeroBackground>
     <Container>
       <MainStyled>
-        <Developments />
+        <Hero />
       </MainStyled>
     </Container>
-  </Background>
+  </HeroBackground>
 );

@@ -39,13 +39,15 @@ export const ButtonStyled = styled.button`
   }
 `;
 
-export const DevButton = styled.button`
+export const HeroButton = styled.button`
   display: block;
   width: 335px;
   height: 60px;
   border-radius: 10px;
   border: none;
   background: #75e169;
+
+  margin: 0 auto;
 
   cursor: pointer;
 
@@ -57,7 +59,8 @@ export const DevButton = styled.button`
 
   line-height: 1.75;
 
-  @media screen and (min-width: 376px) {
+  @media screen and (min-width: 768px) {
+    margin: 0;
     border-radius: 5px;
     width: 270px;
     line-height: 1;
