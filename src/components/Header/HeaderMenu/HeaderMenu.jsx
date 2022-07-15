@@ -1,6 +1,6 @@
 import { UlNav, HeaderNavLink } from "./HeaderMeny.styled";
 
-export const navItems = ["Услуги", "Портфолио", "Этапы", "Дизайнеры"];
+export const navItems = ["услуги", "портфолио", "этапы", "дизайнеры"];
 
 export const HeaderMenu = () => (
   <UlNav>

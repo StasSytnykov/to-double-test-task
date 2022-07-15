@@ -14,18 +14,8 @@ export const MobileModal = () => {
   const [currentLinkClick, setCurrentLinkClick] = useState("");
 
   const handleClick = (event) => {
-    if (event.target.outerText === "УСЛУГИ") {
-      setCurrentLinkClick("Услуги");
-    }
-    if (event.target.outerText === "ПОРТФОЛИО") {
-      setCurrentLinkClick("Портфолио");
-    }
-    if (event.target.outerText === "ЭТАПЫ") {
-      setCurrentLinkClick("Этапы");
-    }
-    if (event.target.outerText === "ДИЗАЙНЕРЫ") {
-      setCurrentLinkClick("Дизайнеры");
-    }
+    event.preventDefault();
+    setCurrentLinkClick(event.target.outerText.toLowerCase());
   };
 
   return createPortal(

@@ -33,7 +33,7 @@ export const LiNav = styled.li`
   }
 `;
 
-export const HeaderNavLink = styled.span`
+export const HeaderNavLink = styled.a`
   font-weight: 800;
   font-size: 17px;
   line-height: 1.59;

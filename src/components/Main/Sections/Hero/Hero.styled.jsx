@@ -9,23 +9,18 @@ import HeroBackgroundImgShape from "../../../../images/background-images/hero/he
 
 export const HeroSection = styled.section`
   padding-top: 327px;
-  @media screen and (min-width: 768px) {
-    padding-top: 171px;
-    padding-bottom: 180px;
-  }
-`;
+  margin-bottom: 51px;
 
-export const HeroBackground = styled.div`
   background-image: url(${HeroBackgroundImgMob}), url(${HeroBackgroundSphere});
   background-repeat: no-repeat;
   background-size: 375px 546.97px, 26px;
   background-position: 0 28px, 325px 271px;
 
   @media screen and (min-width: 768px) {
-    // background-size: cover, 26px;
-  }
+    padding-top: 171px;
+    padding-bottom: 180px;
+    margin-bottom: 0;
 
-  @media screen and (min-width: 768px) {
     background-image: url(${HeroBackgroundImgDesktop}),
       url(${HeroBackgroundImgLayer}), url(${HeroBackgroundImgEclipseThree}),
       url(${HeroBackgroundImgEclipseTwo}), url(${HeroBackgroundImgShape});
