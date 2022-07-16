@@ -40,6 +40,7 @@ export const HeaderNavLink = styled.a`
   text-transform: uppercase;
   border-bottom: ${(props) => (props.current ? "2px solid #ffffff" : "none")};
   color: #ffffff;
+  cursor: pointer;
 
   @media screen and (min-width: 768px) {
     font-weight: 600;
