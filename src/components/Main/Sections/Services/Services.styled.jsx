@@ -51,7 +51,7 @@ export const ServicesItem = styled.li`
   }
 `;
 
-export const ServicesText = styled.p`
+export const ServicesText = styled.h3`
   width: 237px;
   font-size: 17px;
   font-weight: ${(props) => (props.isShowDesc ? "800" : "400")};

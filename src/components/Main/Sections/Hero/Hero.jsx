@@ -1,5 +1,5 @@
 import { Container } from "../../../Container/Container.styled";
-import { HeroButton } from "../../../common/Button/Button.Styled";
+import { HeroButton } from "../../../Button/Button.Styled";
 import { HeroTitle, HeroSection, HeroText } from "./Hero.styled";
 
 export const Hero = () => (
