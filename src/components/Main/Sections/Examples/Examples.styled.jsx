@@ -4,7 +4,7 @@ import exemplBackSphere from "../../../../images/examples-images/desktop/back-sp
 
 export const ExamplesSection = styled.section`
   background: #daecff;
-  padding: 23px 0 50px 0;
+  padding: 23px 0 120px 0;
 
   @media screen and (min-width: 1920px) {
     padding: 120px 0;
