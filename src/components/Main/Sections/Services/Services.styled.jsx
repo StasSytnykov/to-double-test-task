@@ -45,6 +45,7 @@ export const ServicesItem = styled.li`
   &:not(:last-child) {
     margin-bottom: 10px;
   }
+
   @media screen and (min-width: 768px) {
     max-width: 1169px;
     padding: 14px 0 15px 96px;

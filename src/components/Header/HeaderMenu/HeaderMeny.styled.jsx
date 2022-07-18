@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const UlNav = styled.ul`
   display: none;
   @media screen and (min-width: 768px) {
-    position: absolute;
-    right: 130px;
     display: flex;
     align-items: center;
     margin-left: auto;

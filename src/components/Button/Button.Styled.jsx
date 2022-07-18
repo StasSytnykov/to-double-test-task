@@ -25,15 +25,9 @@ export const ButtonStyled = styled.button`
     border: 2px solid #ffffff;
   }
 
-  @media screen and (min-width: 768px) {
-    display: block;
-    margin-left: auto;
-
-    width: 130px;
-    height: 35px;
-  }
-
   @media screen and (min-width: 1200px) {
+    display: block;
+
     width: 170px;
     height: 37.78px;
   }

@@ -9,14 +9,12 @@ export const LogoImg = styled.img`
   height: 35px;
 
   @media screen and (min-width: 768px) {
-    left: 0;
-    top: 25px;
+    position: static;
     width: 200px;
     height: 45px;
   }
 
   @media screen and (min-width: 1200px) {
-    top: 18px;
     width: 242px;
     height: 59px;
   }
