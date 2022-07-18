@@ -17,17 +17,28 @@ export const HeroSection = styled.section`
   background-position: 0 28px, 325px 271px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 171px;
-    padding-bottom: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-bottom: 0;
 
     background-image: url(${HeroBackgroundImgDesktop}),
       url(${HeroBackgroundImgLayer}), url(${HeroBackgroundImgEclipseThree}),
       url(${HeroBackgroundImgEclipseTwo}), url(${HeroBackgroundImgShape});
-    background-size: auto auto;
+    background-size: contain, auto, auto, auto, auto;
+    background-position: 0 225px, 65px 608px, -2px 542px, 1311px 82px,
+      600px 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    background-position: 0 0px, 65px 608px, -2px 542px, 1311px 82px, 600px 50px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    padding-top: 171px;
+    padding-bottom: 180px;
     background-position: center, 65px 608px, -2px 542px, 1311px 82px,
       1231px 92px;
-  }
+    background-size: auto;
+  } ;
 `;
 
 export const HeroTitle = styled.h1`

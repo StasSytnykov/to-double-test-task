@@ -9,6 +9,11 @@ export const ServicesSection = styled.section`
   background: #daecff;
 
   @media screen and (min-width: 768px) {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  @media screen and (min-width: 1920px) {
     padding-bottom: 120px;
     padding-top: 120px;
 

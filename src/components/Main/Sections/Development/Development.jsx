@@ -38,9 +38,9 @@ export const Development = () => {
                 </DevCardText>
               </DevTextThumb>
               <DevImage
-                srcSet={`${devCardOne} 220w, ${devCardOneDesktop} 250w`}
-                sizes="(min-width: 1200px) 250px, (min-width: 375px) 220px, 220px"
                 src={devCardOne}
+                srcSet={`${devCardOne} 220w, ${devCardOneDesktop} 250w`}
+                sizes="(min-width: 1200px) 250px, (min-width: 768px) 220px, 220px"
                 alt="Картинка анализа"
               />
               {/* <DevImage src={devCardOne} alt="Картинка анализа" /> */}
@@ -58,7 +58,8 @@ export const Development = () => {
                 </DevCardText>
               </DevTextThumb>
               <DevImage
-                srcSet={""}
+                srcSet={`${devCardTwo} 220w, ${devCardTwoDesktop} 227w`}
+                sizes="(min-width: 1200px) 227px, (min-width: 375px) 220px, 220px"
                 src={devCardTwo}
                 alt="Картинка разработки дизайна"
               />
@@ -75,7 +76,8 @@ export const Development = () => {
                 </DevCardText>
               </DevTextThumb>
               <DevImage
-                srcSet={""}
+                srcSet={`${devCardThree} 274w, ${devCardThreeDesktop} 310w`}
+                sizes="(min-width: 1200px) 310px, (min-width: 375px) 274px, 274px"
                 src={devCardThree}
                 alt="Картинка технической реализации"
               />
@@ -93,7 +95,8 @@ export const Development = () => {
                 </DevCardText>
               </DevTextThumb>
               <DevImage
-                srcSet={""}
+                srcSet={`${devCardFour} 250w, ${devCardFourDesktop} 250w`}
+                sizes="250px"
                 src={devCardFour}
                 alt="Картинка наполнения контентом"
               />
@@ -111,7 +114,8 @@ export const Development = () => {
                 </DevCardText>
               </DevTextThumb>
               <DevImage
-                srcSet={""}
+                srcSet={`${devCardFive} 280w, ${devCardFiveDesktop} 278w`}
+                sizes="(min-width: 1200px) 278px, (min-width: 375px) 280px, 280px"
                 src={devCardFive}
                 alt="Картинка тестирования"
               />

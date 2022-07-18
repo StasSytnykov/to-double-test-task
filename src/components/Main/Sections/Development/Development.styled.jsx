@@ -13,6 +13,15 @@ export const DevSection = styled.section`
   background-position: 0 14px;
 
   @media screen and (min-width: 768px) {
+    padding: 50px 0 150px 0;
+
+    background-image: url(${devBackSphere});
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: 25px 0;
+  }
+
+  @media screen and (min-width: 1920px) {
     padding: 123px 0 272px 0;
 
     background-image: url(${devBackWave}), url(${devBackSphere});
@@ -36,12 +45,16 @@ export const DevTitle = styled.h2`
     line-height: 1.25;
     text-align: center;
 
+    margin: 0 auto 42px auto;
+  }
+
+  @media screen and (min-width: 1920px) {
     margin: 0 auto 82px auto;
   }
 `;
 
 export const DevSliderThumb = styled.div`
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1920px) {
     margin-left: 25vw;
   }
 `;
@@ -60,13 +73,17 @@ export const DevItem = styled.div`
   // width: 335px;
   height: 615px;
 
-  @media screen and (min-width: 1200px) {
+  // @media screen and (min-width: 768px) {
+  //   height: 615px;
+  // }
+
+  @media screen and (min-width: 1920px) {
     height: 391px;
   }
 `;
 
 export const DevCardThumb = styled.div`
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1920px) {
     display: flex;
   }
 `;
@@ -93,6 +110,8 @@ export const DevCardText = styled.p`
 
 export const DevImage = styled.img`
   margin: 0 auto;
+  widh: 100%;
+  height: 100%;
 
   // @media screen and (min-width: 1200px) {
   // }

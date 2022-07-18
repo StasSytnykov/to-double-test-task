@@ -10,6 +10,21 @@ export const PrevArrow = styled.button`
   border-radius: 15px;
   background: #ffffff;
   outline: none;
+
+  @media screen and (min-width: 768px) {
+    left: 300px;
+    width: 64px;
+  }
+  @media screen and (min-width: 1200px) {
+    left: 500px;
+    width: 64px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 60px;
+    top: 473px;
+    left: 501px;
+  }
 `;
 
 export const NextArrow = styled.button`
@@ -21,4 +36,20 @@ export const NextArrow = styled.button`
   padding: 18px 21px 18px 27px;
   border-radius: 15px;
   background: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    right: 300px;
+    width: 64px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    right: 500px;
+    width: 64px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 60px;
+    top: 473px;
+    right: 784px;
+  }
 `;
