@@ -94,7 +94,6 @@ export const Development = () => {
                 sizes="(min-width: 1200px) 250px, (min-width: 768px) 220px, 220px"
                 alt="Картинка анализа"
               />
-              {/* <DevImage src={devCardOne} alt="Картинка анализа" /> */}
             </DevCardThumb>
           </DevItem>
           <DevItem>

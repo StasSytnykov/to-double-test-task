@@ -17,18 +17,33 @@ export const ExamplesTitle = styled.h2`
   margin: 0 32px 14px 23px;
 `;
 
+export const ExamplesSliderThumb = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+`;
+
 export const ExamplesThumb = styled.div`
-  margin: 0 0 0 6px;
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 `;
 
 export const ExamplesImages = styled.img`
-  &:not(:last-child) {
-    margin-bottom: 15px;
+  @media screen and (max-width: 767px) {
+    height: 260px;
+    object-fit: contain;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
   }
 
-  @media and screen (min-width: 768px) {
-    width: 400px;
-  }
+  // @media screen and (min-width: 768px) {
+  //   display: grid;
+  //   grid-template-columns: 400px 400px;
+  // }
 `;
 
 export const ExamplesDescThumb = styled.div`

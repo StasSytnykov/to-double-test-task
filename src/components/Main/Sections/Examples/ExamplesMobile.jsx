@@ -5,6 +5,7 @@ import {
   ExamplesImages,
   ExamplesDescThumb,
   ExamplesDescTitle,
+  ExamplesSliderThumb,
 } from "./Examples.styled";
 import {
   ExamplesNextArrow,
@@ -51,60 +52,69 @@ const settingsSlider = {
 export const ExamplesMobile = () => (
   <CustomSlider settings={settingsSlider}>
     <ExamplesThumb>
-      <ExamplesImages
-        src={pictureOneMobile}
-        alt="Картинка онлайн магазина для оптовых покупок"
-      />
-      <ExamplesImages
-        src={pictureTwoMobile}
-        alt="Картинка онлайн магазина для парикмахеров"
-      />
-      <ExamplesImages
-        src={pictureThreeMobile}
-        alt="Картинка онлайн магазина для кондитеров"
-      />
+      <ExamplesSliderThumb>
+        <ExamplesImages
+          src={pictureOneMobile}
+          alt="Картинка онлайн магазина для оптовых покупок"
+        />
+        <ExamplesImages
+          src={pictureTwoMobile}
+          alt="Картинка онлайн магазина для парикмахеров"
+        />
+        <ExamplesImages
+          src={pictureThreeMobile}
+          alt="Картинка онлайн магазина для кондитеров"
+        />
+      </ExamplesSliderThumb>
     </ExamplesThumb>
     <ExamplesThumb>
-      <ExamplesImages
-        src={pictureFourMobile}
-        alt="Картинка онлайн магазина для флористов"
-      />
-      <ExamplesImages
-        src={pictureFiveMobile}
-        alt="Картинка онлайн магазина для визажистов"
-      />
-      <ExamplesImages
-        src={pictureSixMobile}
-        alt="Картинка онлайн магазина для художников"
-      />
+      <ExamplesSliderThumb>
+        <ExamplesImages
+          src={pictureFourMobile}
+          alt="Картинка онлайн магазина для флористов"
+        />
+        <ExamplesImages
+          src={pictureFiveMobile}
+          alt="Картинка онлайн магазина для визажистов"
+        />
+        <ExamplesImages
+          src={pictureSixMobile}
+          alt="Картинка онлайн магазина для художников"
+        />
+      </ExamplesSliderThumb>
+    </ExamplesThumb>
+
+    <ExamplesThumb>
+      <ExamplesSliderThumb>
+        <ExamplesDescThumb>
+          <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
+          <ExamplesDescText>для оптовых покупок</ExamplesDescText>
+        </ExamplesDescThumb>
+        <ExamplesDescThumb>
+          <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
+          <ExamplesDescText>для парикмахеров</ExamplesDescText>
+        </ExamplesDescThumb>
+        <ExamplesDescThumb>
+          <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
+          <ExamplesDescText>для кондитеров</ExamplesDescText>
+        </ExamplesDescThumb>
+      </ExamplesSliderThumb>
     </ExamplesThumb>
     <ExamplesThumb>
-      <ExamplesDescThumb>
-        <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
-        <ExamplesDescText>для оптовых покупок</ExamplesDescText>
-      </ExamplesDescThumb>
-      <ExamplesDescThumb>
-        <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
-        <ExamplesDescText>для парикмахеров</ExamplesDescText>
-      </ExamplesDescThumb>
-      <ExamplesDescThumb>
-        <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
-        <ExamplesDescText>для кондитеров</ExamplesDescText>
-      </ExamplesDescThumb>
-    </ExamplesThumb>
-    <ExamplesThumb>
-      <ExamplesDescThumb>
-        <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
-        <ExamplesDescText>для флористов</ExamplesDescText>
-      </ExamplesDescThumb>
-      <ExamplesDescThumb>
-        <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
-        <ExamplesDescText>для визажистов</ExamplesDescText>
-      </ExamplesDescThumb>
-      <ExamplesDescThumb>
-        <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
-        <ExamplesDescText>для художников</ExamplesDescText>
-      </ExamplesDescThumb>
+      <ExamplesSliderThumb>
+        <ExamplesDescThumb>
+          <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
+          <ExamplesDescText>для флористов</ExamplesDescText>
+        </ExamplesDescThumb>
+        <ExamplesDescThumb>
+          <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
+          <ExamplesDescText>для визажистов</ExamplesDescText>
+        </ExamplesDescThumb>
+        <ExamplesDescThumb>
+          <ExamplesDescTitle>Онлайн-магазин</ExamplesDescTitle>
+          <ExamplesDescText>для художников</ExamplesDescText>
+        </ExamplesDescThumb>
+      </ExamplesSliderThumb>
     </ExamplesThumb>
   </CustomSlider>
 );

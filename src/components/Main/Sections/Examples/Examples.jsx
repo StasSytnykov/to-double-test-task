@@ -47,8 +47,6 @@ export const Exeamples = () => {
               src={pictureThreeDesktop}
               alt="Картинка онлайн магазина для кондитеров"
             />
-          </ExamplesThumb>
-          <ExamplesThumb>
             <ExamplesImages
               src={pictureFourDesktop}
               alt="Картинка онлайн магазина для флористов"
