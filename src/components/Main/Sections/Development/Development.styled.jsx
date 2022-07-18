@@ -70,12 +70,7 @@ export const DevItem = styled.div`
   padding: 27px 31px 0 31px;
   margin-right: 25px;
 
-  // width: 335px;
   height: 615px;
-
-  // @media screen and (min-width: 768px) {
-  //   height: 615px;
-  // }
 
   @media screen and (min-width: 1920px) {
     height: 391px;
@@ -85,14 +80,6 @@ export const DevItem = styled.div`
 export const DevCardThumb = styled.div`
   @media screen and (min-width: 1920px) {
     display: flex;
-  }
-`;
-
-export const DevTextThumb = styled.div`
-  @media screen and (min-width: 768px) {
-    // width: 300px;
-    // display: flex;
-    // flex-direction: column;
   }
 `;
 

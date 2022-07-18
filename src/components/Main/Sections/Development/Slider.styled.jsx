@@ -8,7 +8,7 @@ export const PrevArrow = styled.button`
   border: 2px solid #67aefc;
   padding: 18px 27px 18px 21px;
   border-radius: 15px;
-  background: #ffffff;
+  background: inherit;
   outline: none;
 
   @media screen and (min-width: 768px) {
@@ -35,7 +35,7 @@ export const NextArrow = styled.button`
   border: 2px solid #67aefc;
   padding: 18px 21px 18px 27px;
   border-radius: 15px;
-  background: #ffffff;
+  background: inherit;
 
   @media screen and (min-width: 768px) {
     right: 300px;
@@ -51,5 +51,20 @@ export const NextArrow = styled.button`
     width: 60px;
     top: 473px;
     right: 784px;
+  }
+`;
+
+export const ExamplesPrevArrow = styled(PrevArrow)`
+  top: 840px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+`;
+
+export const ExamplesNextArrow = styled(NextArrow)`
+  top: 840px;
+
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 `;

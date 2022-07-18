@@ -15,28 +15,79 @@ import {
   DevTitle,
   DevItem,
   DevCardThumb,
-  DevTextThumb,
   DevCardTitle,
   DevCardText,
   DevImage,
 } from "./Development.styled";
+
+import { PrevArrow, NextArrow } from "./Slider.styled";
+import sprite from "../../../../images/sprite.svg";
+
+const SampleNextArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <NextArrow onClick={onClick}>
+      <svg width={12} height={24}>
+        <use href={sprite + "#arrow-right"}></use>
+      </svg>
+    </NextArrow>
+  );
+};
+
+const SamplePrevArrow = (props) => {
+  const { onClick } = props;
+
+  return (
+    <PrevArrow onClick={onClick}>
+      <svg width={12} height={24}>
+        <use href={sprite + "#arrow-left"}></use>
+      </svg>
+    </PrevArrow>
+  );
+};
+
+const settingsSlider = {
+  infinite: false,
+  slidesToShow: 2.3,
+  slidesToScroll: 1,
+  nextArrow: <SampleNextArrow />,
+  prevArrow: <SamplePrevArrow />,
+  responsive: [
+    {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: false,
+      },
+    },
+    {
+      breakpoint: 767,
+      infinite: true,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
 
 export const Development = () => {
   return (
     <DevSection>
       <DevTitle>Этапы разработки интернет-магазина</DevTitle>
       <DevSliderThumb>
-        <CustomSlider>
+        <CustomSlider settings={settingsSlider}>
           <DevItem>
             <DevCardThumb>
-              <DevTextThumb>
+              <div>
                 <DevCardTitle>1. Анализ</DevCardTitle>
                 <DevCardText>
                   Для того, чтобы онлайн-магазин приносил выгоду, перед его
                   запуском необходимо провести анализ других предложений рынка,
                   оценить конкурентов и найти наиболее удобное решение.
                 </DevCardText>
-              </DevTextThumb>
+              </div>
               <DevImage
                 src={devCardOne}
                 srcSet={`${devCardOne} 220w, ${devCardOneDesktop} 250w`}
@@ -48,7 +99,7 @@ export const Development = () => {
           </DevItem>
           <DevItem>
             <DevCardThumb>
-              <DevTextThumb>
+              <div>
                 <DevCardTitle>2. Визуальное решение</DevCardTitle>
                 <DevCardText>
                   Разработка дизайна ключевых страниц магазина – главная,
@@ -56,7 +107,7 @@ export const Development = () => {
                   нас главное – передать настроение бренда, сделать удобный
                   сайт.
                 </DevCardText>
-              </DevTextThumb>
+              </div>
               <DevImage
                 srcSet={`${devCardTwo} 220w, ${devCardTwoDesktop} 227w`}
                 sizes="(min-width: 1200px) 227px, (min-width: 375px) 220px, 220px"
@@ -67,14 +118,14 @@ export const Development = () => {
           </DevItem>
           <DevItem>
             <DevCardThumb>
-              <DevTextThumb>
+              <div>
                 <DevCardTitle>3. Техническая реализация</DevCardTitle>
                 <DevCardText>
                   После утверждения дизайн-макета наступает следующий этап –
                   верстка. Это трудоемкий процесс: программисты должны все
                   тщательно прописать, чтобы не допустить технических ошибок.
                 </DevCardText>
-              </DevTextThumb>
+              </div>
               <DevImage
                 srcSet={`${devCardThree} 274w, ${devCardThreeDesktop} 310w`}
                 sizes="(min-width: 1200px) 310px, (min-width: 375px) 274px, 274px"
@@ -85,7 +136,7 @@ export const Development = () => {
           </DevItem>
           <DevItem>
             <DevCardThumb>
-              <DevTextThumb>
+              <div>
                 <DevCardTitle>4. Наполнение контентом </DevCardTitle>
                 <DevCardText>
                   Создание и публикация текстов, а также видео материала.
@@ -93,7 +144,7 @@ export const Development = () => {
                   посетителей и помогают клиенту лучше ознакомиться с
                   ассортиментом.
                 </DevCardText>
-              </DevTextThumb>
+              </div>
               <DevImage
                 srcSet={`${devCardFour} 250w, ${devCardFourDesktop} 250w`}
                 sizes="250px"
@@ -104,7 +155,7 @@ export const Development = () => {
           </DevItem>
           <DevItem>
             <DevCardThumb>
-              <DevTextThumb>
+              <div>
                 <DevCardTitle>5. Тестирование</DevCardTitle>
                 <DevCardText>
                   Составление плана тестирования для определения ошибок.
@@ -112,7 +163,7 @@ export const Development = () => {
                   сайта. Также используются чек-листы для четкого определения
                   ошибок и их устранения.
                 </DevCardText>
-              </DevTextThumb>
+              </div>
               <DevImage
                 srcSet={`${devCardFive} 280w, ${devCardFiveDesktop} 278w`}
                 sizes="(min-width: 1200px) 278px, (min-width: 375px) 280px, 280px"

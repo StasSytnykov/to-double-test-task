@@ -25,14 +25,17 @@ export const ServicesSection = styled.section`
 
 export const ServicesTitle = styled.h2`
   margin-bottom: 17px;
-
   font-weight: 800;
-  font-size: 32px;
-  line-height: 1.25;
-
+  font-size: 23px;
+  line-height: 1.5;
   text-align: center;
 
   color: #111111;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 1.25;
+  }
 `;
 
 export const ServicesItem = styled.li`
