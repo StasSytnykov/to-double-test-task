@@ -102,7 +102,4 @@ export const DevImage = styled.img`
   margin: 0 auto;
   widh: 100%;
   height: 100%;
-
-  // @media screen and (min-width: 1200px) {
-  // }
 `;
