@@ -4,6 +4,7 @@ export const FlipCard = styled.div`
   background: transparent;
   border-radius: 15px;
   perspective: 1000px;
+  cursor: pointer;
 `;
 
 export const FlipCardInner = styled.div`

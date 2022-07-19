@@ -10,6 +10,8 @@ export const PrevArrow = styled.button`
   border-radius: 15px;
   background: inherit;
   outline: none;
+  transition: background 250ms ease-in-out;
+
   &:hover {
     background: #67aefc;
   }
@@ -41,6 +43,8 @@ export const NextArrow = styled.button`
   padding: 18px 21px 18px 27px;
   border-radius: 15px;
   background: inherit;
+  transition: background 250ms ease-in-out;
+
   &:hover {
     background: #67aefc;
   }
@@ -66,6 +70,7 @@ export const NextArrow = styled.button`
 
 export const SvgArrow = styled.svg`
   stroke: #000000;
+  transition: stroke 250ms ease-in-out;
 
   ${NextArrow}:hover & {
     stroke: #ffffff;

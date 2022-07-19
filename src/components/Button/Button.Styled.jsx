@@ -13,6 +13,9 @@ export const ButtonStyled = styled.button`
   text-transform: uppercase;
   color: #ffffff;
 
+  transition: border 250ms ease-in-out, color 250ms ease-in-out,
+    background 100ms ease-in-out;
+
   &:hover,
   &:focus {
     border: 2px solid #ffffff;
@@ -52,6 +55,8 @@ export const HeroButton = styled.button`
   color: #ffffff;
 
   line-height: 1.75;
+
+  transition: border 250ms ease-in-out, background 100ms ease-in-out;
 
   @media screen and (min-width: 768px) {
     margin: 0;

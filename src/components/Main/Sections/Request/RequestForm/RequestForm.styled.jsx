@@ -28,9 +28,15 @@ export const ReqInput = styled.input`
   padding: 19px 0 19px 17px;
   width: 335px;
 
-  &:focus {
-    outline: #67aefc solid 2px;
+  outline: 1px solid #67aefc;
+  outline-color: transparent;
+  transition: outline-color 250ms ease-in-out, color 250ms ease-in-out;
+
+  &:focus,
+  &:hover {
+    outline-color: #67aefc;
     color: #292929;
+    cursor: pointer;
   }
 
   @media screen and (min-width: 768px) {

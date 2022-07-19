@@ -72,6 +72,8 @@ export const DevItem = styled.div`
 
   height: 615px;
 
+  cursor: pointer;
+
   @media screen and (min-width: 1920px) {
     height: 391px;
   }

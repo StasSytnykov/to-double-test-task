@@ -50,6 +50,15 @@ export const ServicesItem = styled.li`
   background: #ffffff;
   border-radius: 10px;
 
+  border: 1px solid transparent;
+
+  transition: border 250ms ease-in-out;
+
+  &:focus,
+  &:hover {
+    border: 1px solid #67aefc;
+  }
+
   &:not(:last-child) {
     margin-bottom: 10px;
   }
