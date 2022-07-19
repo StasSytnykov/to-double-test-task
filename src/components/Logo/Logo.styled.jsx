@@ -25,4 +25,10 @@ export const LogoFooter = styled.img`
   height: 66px;
 
   margin-bottom: 26px;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 5px;
+    display: inline;
+    margin-bottom: 45px;
+  }
 `;

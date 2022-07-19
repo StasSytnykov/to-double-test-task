@@ -8,14 +8,15 @@ import {
   FooterText,
   FooterLink,
   FooterSvg,
-  FooterAddress,
   FooterInfoText,
+  FooterMail,
+  FooterContainer,
 } from "./Footer.styled";
 
 export const Footer = () => (
   <StyledFooter>
-    <FooterLogo />
-    <FooterAddress>
+    <FooterContainer>
+      <FooterLogo />
       <FooterList>
         <FooterItem>
           <FooterSvg width={28} height={29}>
@@ -46,8 +47,8 @@ export const Footer = () => (
         </FooterItem>
       </FooterList>
       <SocialLinks />
-      <FooterLink href="mailto:hr@d-vs.com">hr@d-vs.com</FooterLink>
+      <FooterMail href="mailto:hr@d-vs.com">hr@d-vs.com</FooterMail>
       <FooterInfoText>Developers 2018-2021 All rights reserved</FooterInfoText>
-    </FooterAddress>
+    </FooterContainer>
   </StyledFooter>
 );
