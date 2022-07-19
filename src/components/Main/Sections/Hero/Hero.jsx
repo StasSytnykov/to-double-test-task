@@ -12,7 +12,7 @@ export const Hero = () => (
           - от фирменного стиля до пользовательского интерфейса в сжатые сроки с
           командой Virtual Designers
         </HeroText>
-        <HeroButton>Заказать</HeroButton>
+        <HeroButton type="button">Заказать</HeroButton>
       </Container>
     </HeroSection>
   </>

@@ -21,6 +21,7 @@ export const Information = () => (
           srcSet={`${infoOrdersMobile} 260w, ${infoOrdersDesktop} 698w`}
           sizes="(min-width: 1200px) 698px, 260px"
           src={infoOrdersMobile}
+          alt="Картинка с информации"
         />
         <InfoDesc>
           Если Вы владелец онлайн-магазина или только начинаете свой путь в
@@ -28,7 +29,7 @@ export const Information = () => (
           для стартапа, обратитесь к нашему веб дизайнеру. За выгодную цену и
           короткий период времени, он поможет визуализировать ваш веб-проект.
         </InfoDesc>
-        <Button title="оставить заявку" />
+        <Button type="button" title="оставить заявку" />
       </InfoDescThumb>
     </Container>
   </InfoSection>

@@ -1,5 +1,5 @@
 import { HeroButton } from "./Button.Styled";
 
-export const Button = ({ title }) => (
-  <HeroButton type="button">{title}</HeroButton>
+export const Button = ({ title, type }) => (
+  <HeroButton type={type}>{title}</HeroButton>
 );

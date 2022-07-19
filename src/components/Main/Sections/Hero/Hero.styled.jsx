@@ -1,19 +1,19 @@
 import styled from "styled-components";
-import HeroBackgroundImgMob from "../../../../images/background-images/hero/hero-background-mobile.avif";
-import HeroBackgroundSphere from "../../../../images/background-images/hero/hero-background-sphere-mobile.avif";
-import HeroBackgroundImgDesktop from "../../../../images/background-images/hero/hero-background-cart-empty.avif";
-import HeroBackgroundImgLayer from "../../../../images/background-images/hero/hero-background-layer.avif";
-import HeroBackgroundImgEclipseThree from "../../../../images/background-images/hero/hero-background-eclipse-3.avif";
-import HeroBackgroundImgEclipseTwo from "../../../../images/background-images/hero/hero-background-eclipse-2.avif";
-import HeroBackgroundImgShape from "../../../../images/background-images/hero/hero-background-shape.avif";
+import heroBackgroundImgMob from "../../../../images/background-images/hero/hero-background-mobile.avif";
+import heroBackgroundSphere from "../../../../images/background-images/hero/hero-background-sphere-mobile.avif";
+import heroBackgroundImgDesktop from "../../../../images/background-images/hero/hero-background-cart-empty.avif";
+import heroBackgroundImgLayer from "../../../../images/background-images/hero/hero-background-layer.avif";
+import heroBackgroundImgEclipseThree from "../../../../images/background-images/hero/hero-background-eclipse-3.avif";
+import heroBackgroundImgEclipseTwo from "../../../../images/background-images/hero/hero-background-eclipse-2.avif";
+import heroBackgroundImgShape from "../../../../images/background-images/hero/hero-background-shape.avif";
 
 export const HeroSection = styled.section`
   padding-top: 327px;
   margin-bottom: 51px;
 
-  background-image: url(${HeroBackgroundImgMob}), url(${HeroBackgroundSphere});
+  background-image: url(${heroBackgroundImgMob}), url(${heroBackgroundSphere});
   background-repeat: no-repeat;
-  background-size: 375px 546.97px, 26px;
+  background-size: cover, 26px;
   background-position: 0 28px, 325px 271px;
 
   @media screen and (min-width: 768px) {
@@ -21,9 +21,9 @@ export const HeroSection = styled.section`
     padding-bottom: 50px;
     margin-bottom: 0;
 
-    background-image: url(${HeroBackgroundImgDesktop}),
-      url(${HeroBackgroundImgLayer}), url(${HeroBackgroundImgEclipseThree}),
-      url(${HeroBackgroundImgEclipseTwo}), url(${HeroBackgroundImgShape});
+    background-image: url(${heroBackgroundImgDesktop}),
+      url(${heroBackgroundImgLayer}), url(${heroBackgroundImgEclipseThree}),
+      url(${heroBackgroundImgEclipseTwo}), url(${heroBackgroundImgShape});
     background-size: contain, auto, auto, auto, auto;
     background-position: 0 225px, 65px 608px, -2px 542px, 1311px 82px,
       600px 50px;
