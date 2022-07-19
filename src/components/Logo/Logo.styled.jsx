@@ -19,3 +19,10 @@ export const LogoImg = styled.img`
     height: 59px;
   }
 `;
+
+export const LogoFooter = styled.img`
+  width: 280px;
+  height: 66px;
+
+  margin-bottom: 26px;
+`;

@@ -10,6 +10,9 @@ export const PrevArrow = styled.button`
   border-radius: 15px;
   background: inherit;
   outline: none;
+  &:hover {
+    background: #67aefc;
+  }
 
   @media screen and (min-width: 768px) {
     left: 300px;
@@ -20,9 +23,6 @@ export const PrevArrow = styled.button`
 
     left: 500px;
     width: 64px;
-    &:hover {
-      background: #67aefc;
-    }
   }
 
   @media screen and (min-width: 1920px) {
@@ -41,6 +41,9 @@ export const NextArrow = styled.button`
   padding: 18px 21px 18px 27px;
   border-radius: 15px;
   background: inherit;
+  &:hover {
+    background: #67aefc;
+  }
 
   @media screen and (min-width: 768px) {
     right: 300px;
@@ -52,9 +55,6 @@ export const NextArrow = styled.button`
 
     right: 500px;
     width: 64px;
-    &:hover {
-      background: #67aefc;
-    }
   }
 
   @media screen and (min-width: 1920px) {

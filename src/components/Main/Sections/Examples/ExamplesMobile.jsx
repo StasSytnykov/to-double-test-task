@@ -10,6 +10,7 @@ import {
 import {
   ExamplesNextArrow,
   ExamplesPrevArrow,
+  SvgArrow,
 } from "../../../Slider/Slider.styled";
 import sprite from "../../../../images/sprite.svg";
 import pictureOneMobile from "../../../../images/examples-images/mobile/picture-one.avif";
@@ -23,9 +24,9 @@ const SampleNextArrow = (props) => {
   const { onClick } = props;
   return (
     <ExamplesNextArrow onClick={onClick}>
-      <svg width={12} height={24}>
+      <SvgArrow width={12} height={24}>
         <use href={sprite + "#arrow-right"}></use>
-      </svg>
+      </SvgArrow>
     </ExamplesNextArrow>
   );
 };
@@ -35,9 +36,9 @@ const SamplePrevArrow = (props) => {
 
   return (
     <ExamplesPrevArrow onClick={onClick}>
-      <svg width={12} height={24}>
+      <SvgArrow width={12} height={24}>
         <use href={sprite + "#arrow-left"}></use>
-      </svg>
+      </SvgArrow>
     </ExamplesPrevArrow>
   );
 };
