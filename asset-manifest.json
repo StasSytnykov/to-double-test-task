@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/to-double-test-task/static/css/main.839b5634.css",
-    "main.js": "/to-double-test-task/static/js/main.163b6d74.js",
+    "main.js": "/to-double-test-task/static/js/main.40006f96.js",
     "static/media/hero-background-cart-empty.avif": "/to-double-test-task/static/media/hero-background-cart-empty.109d2a30819f5d9b2fdc.avif",
+    "static/media/orders-desktop.avif": "/to-double-test-task/static/media/orders-desktop.a489fa252439a6101aa6.avif",
     "static/media/picture-one.avif": "/to-double-test-task/static/media/picture-one.a838faabb315432919b1.avif",
     "static/media/picture-five.avif": "/to-double-test-task/static/media/picture-five.c3d45021b8c9117781c5.avif",
     "static/media/picture-four.avif": "/to-double-test-task/static/media/picture-four.0aef821c534a848e33af.avif",
     "static/media/picture-three.avif": "/to-double-test-task/static/media/picture-three.0a6007336bb3316f4d86.avif",
-    "static/media/sprite.svg": "/to-double-test-task/static/media/sprite.a0573735d6771249abc2f1ff5ae1cbaf.svg",
+    "static/media/sprite.svg": "/to-double-test-task/static/media/sprite.65e61903558824dcfe1c1ff3fdaac5d4.svg",
     "static/media/dev-card-three-desktop.avif": "/to-double-test-task/static/media/dev-card-three-desktop.6f658f90bfb28da93aa1.avif",
     "static/media/picture-six.avif": "/to-double-test-task/static/media/picture-six.7408c75773d2ba93da70.avif",
     "static/media/hero-background-mobile.avif": "/to-double-test-task/static/media/hero-background-mobile.30c462834a30f5cc20c7.avif",
+    "static/media/call-phone-desktop.avif": "/to-double-test-task/static/media/call-phone-desktop.ca1abf1128333de951b1.avif",
     "static/media/dev-card-three.avif": "/to-double-test-task/static/media/dev-card-three.096294e1b8ac86c89d80.avif",
     "static/media/dev-card-five-desktop.avif": "/to-double-test-task/static/media/dev-card-five-desktop.ea1bd315a1509c4d6caa.avif",
     "static/media/dev-card-four.avif": "/to-double-test-task/static/media/dev-card-four.9f38f59eff916aaa207d.avif",
     "static/media/dev-card-four-desktop.avif": "/to-double-test-task/static/media/dev-card-four-desktop.bad08e6878689959741f.avif",
+    "static/media/postpaid-mobile.avif": "/to-double-test-task/static/media/postpaid-mobile.139502edc584c03a5678.avif",
+    "static/media/orders-mobile.avif": "/to-double-test-task/static/media/orders-mobile.97df6635540f46c452ee.avif",
     "static/media/dev-card-five.avif": "/to-double-test-task/static/media/dev-card-five.03e44f4ff96f5fe3acd1.avif",
     "static/media/dev-card-two-desktop.avif": "/to-double-test-task/static/media/dev-card-two-desktop.3a49cb3da7d0fd791b8f.avif",
     "static/media/dev-card-two.avif": "/to-double-test-task/static/media/dev-card-two.f0d2cd86062aedaf7919.avif",
@@ -23,6 +27,7 @@
     "static/media/picture-two.avif": "/to-double-test-task/static/media/picture-two.f2a83e462444b2b681a5.avif",
     "static/media/dev-card-one.avif": "/to-double-test-task/static/media/dev-card-one.7d4a82c30da583c27195.avif",
     "static/media/back-wave.avif": "/to-double-test-task/static/media/back-wave.f2cbbd73b51e24e09283.avif",
+    "static/media/group-desktop.avif": "/to-double-test-task/static/media/group-desktop.185430f203fe89a9ae19.avif",
     "static/media/back-shape-wave.avif": "/to-double-test-task/static/media/back-shape-wave.b1136594d51412b8f41e.avif",
     "static/media/hero-background-layer.avif": "/to-double-test-task/static/media/hero-background-layer.6c09cd0c4abb6987f3ca.avif",
     "static/media/slick.svg": "/to-double-test-task/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -34,16 +39,18 @@
     "static/media/hero-background-shape.avif": "/to-double-test-task/static/media/hero-background-shape.87379d0054d84c24104b.avif",
     "static/media/slick.woff": "/to-double-test-task/static/media/slick.295183786cd8a1389865.woff",
     "static/media/back-shape-sphere.avif": "/to-double-test-task/static/media/back-shape-sphere.b37a29ae5c91e49e14f8.avif",
+    "static/media/sphere-desktop.avif": "/to-double-test-task/static/media/sphere-desktop.d12c201b4193b3a5e743.avif",
     "index.html": "/to-double-test-task/index.html",
+    "static/media/sphere-mobile.avif": "/to-double-test-task/static/media/sphere-mobile.8feec2d65b9449d03f8e.avif",
     "static/media/hero-background-sphere-mobile.avif": "/to-double-test-task/static/media/hero-background-sphere-mobile.7a0025e562dbe9e4916e.avif",
     "static/media/background-shape-sphere.avif": "/to-double-test-task/static/media/background-shape-sphere.8e0cac3d4b12430a8977.avif",
     "static/media/services-ellipse-4.avif": "/to-double-test-task/static/media/services-ellipse-4.db9724bf4993c822b2bd.avif",
     "static/media/services-ellipse-5.avif": "/to-double-test-task/static/media/services-ellipse-5.138887c25285e05096e7.avif",
     "main.839b5634.css.map": "/to-double-test-task/static/css/main.839b5634.css.map",
-    "main.163b6d74.js.map": "/to-double-test-task/static/js/main.163b6d74.js.map"
+    "main.40006f96.js.map": "/to-double-test-task/static/js/main.40006f96.js.map"
   },
   "entrypoints": [
     "static/css/main.839b5634.css",
-    "static/js/main.163b6d74.js"
+    "static/js/main.40006f96.js"
   ]
 }
