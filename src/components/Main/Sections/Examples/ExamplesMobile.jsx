@@ -10,7 +10,7 @@ import {
 import {
   ExamplesNextArrow,
   ExamplesPrevArrow,
-} from "../Development/Slider.styled";
+} from "../../../Slider/Slider.styled";
 import sprite from "../../../../images/sprite.svg";
 import pictureOneMobile from "../../../../images/examples-images/mobile/picture-one.avif";
 import pictureTwoMobile from "../../../../images/examples-images/mobile/picture-two.avif";

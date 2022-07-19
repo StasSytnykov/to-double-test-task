@@ -5,11 +5,11 @@
   </symbol>
   <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 32" id="arrow-left">
     <title>arrow-left</title>
-    <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615" stroke="#000" d="M16 30.769l-14.769-14.769 14.769-14.769"></path>
+    <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615" d="M16 30.769l-14.769-14.769 14.769-14.769"></path>
   </symbol>
   <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 32" id="arrow-right">
     <title>arrow-right</title>
-    <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615" stroke="#000" d="M1.231 30.769l14.769-14.769-14.769-14.769"></path>
+    <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4615"  d="M1.231 30.769l14.769-14.769-14.769-14.769"></path>
   </symbol>
   <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="burger">
     <title>burger</title>

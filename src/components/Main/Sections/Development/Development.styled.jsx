@@ -80,6 +80,7 @@ export const DevItem = styled.div`
 export const DevCardThumb = styled.div`
   @media screen and (min-width: 1920px) {
     display: flex;
+    align-items: center;
   }
 `;
 

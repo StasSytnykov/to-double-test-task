@@ -1,14 +1,4 @@
 import { CustomSlider } from "../../../Slider/Slider";
-import devCardOne from "../../../../images/developments-images/mobile/dev-card-one.avif";
-import devCardTwo from "../../../../images/developments-images/mobile/dev-card-two.avif";
-import devCardThree from "../../../../images/developments-images/mobile/dev-card-three.avif";
-import devCardFour from "../../../../images/developments-images/mobile/dev-card-four.avif";
-import devCardFive from "../../../../images/developments-images/mobile/dev-card-five.avif";
-import devCardOneDesktop from "../../../../images/developments-images/desktop/dev-card-one-desktop.avif";
-import devCardTwoDesktop from "../../../../images/developments-images/desktop/dev-card-two-desktop.avif";
-import devCardThreeDesktop from "../../../../images/developments-images/desktop/dev-card-three-desktop.avif";
-import devCardFourDesktop from "../../../../images/developments-images/desktop/dev-card-four-desktop.avif";
-import devCardFiveDesktop from "../../../../images/developments-images/desktop/dev-card-five-desktop.avif";
 import {
   DevSection,
   DevSliderThumb,
@@ -19,17 +9,26 @@ import {
   DevCardText,
   DevImage,
 } from "./Development.styled";
-
-import { PrevArrow, NextArrow } from "./Slider.styled";
+import { PrevArrow, NextArrow, SvgArrow } from "../../../Slider/Slider.styled";
+import devCardOne from "../../../../images/developments-images/mobile/dev-card-one.avif";
+import devCardTwo from "../../../../images/developments-images/mobile/dev-card-two.avif";
+import devCardThree from "../../../../images/developments-images/mobile/dev-card-three.avif";
+import devCardFour from "../../../../images/developments-images/mobile/dev-card-four.avif";
+import devCardFive from "../../../../images/developments-images/mobile/dev-card-five.avif";
+import devCardOneDesktop from "../../../../images/developments-images/desktop/dev-card-one-desktop.avif";
+import devCardTwoDesktop from "../../../../images/developments-images/desktop/dev-card-two-desktop.avif";
+import devCardThreeDesktop from "../../../../images/developments-images/desktop/dev-card-three-desktop.avif";
+import devCardFourDesktop from "../../../../images/developments-images/desktop/dev-card-four-desktop.avif";
+import devCardFiveDesktop from "../../../../images/developments-images/desktop/dev-card-five-desktop.avif";
 import sprite from "../../../../images/sprite.svg";
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;
   return (
     <NextArrow onClick={onClick}>
-      <svg width={12} height={24}>
+      <SvgArrow width={12} height={24}>
         <use href={sprite + "#arrow-right"}></use>
-      </svg>
+      </SvgArrow>
     </NextArrow>
   );
 };
@@ -39,9 +38,9 @@ const SamplePrevArrow = (props) => {
 
   return (
     <PrevArrow onClick={onClick}>
-      <svg width={12} height={24}>
+      <SvgArrow width={12} height={24}>
         <use href={sprite + "#arrow-left"}></use>
-      </svg>
+      </SvgArrow>
     </PrevArrow>
   );
 };

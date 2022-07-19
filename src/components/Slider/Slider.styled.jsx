@@ -16,14 +16,19 @@ export const PrevArrow = styled.button`
     width: 64px;
   }
   @media screen and (min-width: 1200px) {
+    cursor: pointer;
+
     left: 500px;
     width: 64px;
+    &:hover {
+      background: #67aefc;
+    }
   }
 
   @media screen and (min-width: 1920px) {
+    left: 30%;
     width: 60px;
     top: 473px;
-    left: 501px;
   }
 `;
 
@@ -43,14 +48,30 @@ export const NextArrow = styled.button`
   }
 
   @media screen and (min-width: 1200px) {
+    cursor: pointer;
+
     right: 500px;
     width: 64px;
+    &:hover {
+      background: #67aefc;
+    }
   }
 
   @media screen and (min-width: 1920px) {
     width: 60px;
     top: 473px;
-    right: 784px;
+    right: 60%;
+  }
+`;
+
+export const SvgArrow = styled.svg`
+  stroke: #000000;
+
+  ${NextArrow}:hover & {
+    stroke: #ffffff;
+  }
+  ${PrevArrow}:hover & {
+    stroke: #ffffff;
   }
 `;
 
