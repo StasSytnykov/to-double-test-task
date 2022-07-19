@@ -19,8 +19,6 @@ export const ReqInput = styled.input`
   border: 1px solid #67aefc;
   border-radius: 10px;
 
-  outline: none;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -29,6 +27,11 @@ export const ReqInput = styled.input`
 
   padding: 19px 0 19px 17px;
   width: 335px;
+
+  &:focus {
+    outline: #67aefc solid 2px;
+    color: #292929;
+  }
 
   @media screen and (min-width: 768px) {
     margin-bottom: 20px;
