@@ -1,14 +1,5 @@
 import styled from "styled-components";
 
-export const FooterContainer = styled.div`
-  margin: 0 auto;
-  padding: 0 20px;
-  @media screen and (min-width: 1200px) {
-    width: 1160px;
-    position: relative;
-  }
-`;
-
 export const StyledFooter = styled.footer`
   padding: 46px 0 140px 0;
   display: flex;
@@ -22,6 +13,20 @@ export const StyledFooter = styled.footer`
   @media screen and (min-width: 1200px) {
     display: block;
     padding: 101px 0 79px 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding: 101px 0 79px 0;
+  }
+`;
+
+export const FooterContainer = styled.div`
+  margin: 0 auto;
+  padding: 0 20px;
+  @media screen and (min-width: 1200px) {
+    width: 1160px;
+    position: relative;
   }
 `;
 
