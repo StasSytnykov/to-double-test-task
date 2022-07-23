@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/to-double-test-task/static/css/main.839b5634.css",
-    "main.js": "/to-double-test-task/static/js/main.40006f96.js",
+    "main.js": "/to-double-test-task/static/js/main.592067c3.js",
     "static/media/hero-background-cart-empty.avif": "/to-double-test-task/static/media/hero-background-cart-empty.109d2a30819f5d9b2fdc.avif",
     "static/media/orders-desktop.avif": "/to-double-test-task/static/media/orders-desktop.a489fa252439a6101aa6.avif",
     "static/media/picture-one.avif": "/to-double-test-task/static/media/picture-one.a838faabb315432919b1.avif",
@@ -47,10 +47,10 @@
     "static/media/services-ellipse-4.avif": "/to-double-test-task/static/media/services-ellipse-4.db9724bf4993c822b2bd.avif",
     "static/media/services-ellipse-5.avif": "/to-double-test-task/static/media/services-ellipse-5.138887c25285e05096e7.avif",
     "main.839b5634.css.map": "/to-double-test-task/static/css/main.839b5634.css.map",
-    "main.40006f96.js.map": "/to-double-test-task/static/js/main.40006f96.js.map"
+    "main.592067c3.js.map": "/to-double-test-task/static/js/main.592067c3.js.map"
   },
   "entrypoints": [
     "static/css/main.839b5634.css",
-    "static/js/main.40006f96.js"
+    "static/js/main.592067c3.js"
   ]
 }
